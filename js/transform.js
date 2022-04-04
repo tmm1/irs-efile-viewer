@@ -304,7 +304,7 @@ function setFormProperties(inputDom, templateDom, formId) {
     ];
     propsToTransfer.forEach(function(prop) {
         var val = getXPathValue(inputDom, prop.xpath);
-        val = prop.transform ? prop.transform(val) : val;
+        val = prop.transform && val ? prop.transform(val) : val;
         setNodeValue(templateDom, prop.dest, val);
     });
 
@@ -358,10 +358,13 @@ function getXPathValue(dom, xpath) {
 
     // Execute XPath
     var xpathResult = dom.evaluate(xpath, dom, null, XPathResult.ANY_TYPE, null);
-    if(attr) {
-        return xpathResult.iterateNext().getAttribute(attr);
+    var o = xpathResult.iterateNext()
+    if (!o) {
+        return null
+    } else if(attr) {
+        return o.getAttribute(attr);
     } else {
-        return xpathResult.iterateNext().textContent;
+        return o.textContent;
     }
 }
 
