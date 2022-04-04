@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:efile="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2010v4.0" xsi:schemaLocation="http://www.irs.gov/efile">
+  <ReturnHeader binaryAttachmentCount="1">
+    <Timestamp>1999-05-30T12:01:01+05:01</Timestamp>
+    <TaxYear>2010</TaxYear>
+    <TaxPeriodBeginDate>2010-01-01</TaxPeriodBeginDate>
+    <TaxPeriodEndDate>2010-12-31</TaxPeriodEndDate>
+    <ISPNumber>12NONE</ISPNumber>
+    <SoftwareId>00000000</SoftwareId>
+    <SoftwareVersion>String</SoftwareVersion>
+    <Originator>
+      <EFIN>888888</EFIN>
+      <OriginatorTypeCd>ERO</OriginatorTypeCd>
+      <PractitionerPIN>
+        <EFIN>888888</EFIN>
+        <PIN>00000</PIN>
+      </PractitionerPIN>
+    </Originator>
+    <PINTypeCode>Practitioner</PINTypeCode>
+    <JuratDisclosureCode>Practitioner PIN</JuratDisclosureCode>
+    <PrimaryPINEnteredBy>Taxpayer</PrimaryPINEnteredBy>
+    <PrimarySignature>00001</PrimarySignature>
+    <PrimarySignatureDate>2011-01-01</PrimarySignatureDate>
+    <ReturnType>1040</ReturnType>
+    <Filer>
+      <PrimarySSN>000000000</PrimarySSN>
+      <Name>Aunt Bee&lt;Taylor</Name>
+      <InCareOfName>% Thelma Lou</InCareOfName>
+      <PrimaryNameControl>GPUZ</PrimaryNameControl>
+      <USAddress>
+        <AddressLine1>3313 Edgewood St</AddressLine1>
+        <City>St Charles</City>
+        <State>MO</State>
+        <ZIPCode>64827</ZIPCode>
+      </USAddress>
+    </Filer>
+    <PaidPreparerInformation>
+      <DateSigned>1999-05-30</DateSigned>
+      <PreparerFirmIDNumber>000000000</PreparerFirmIDNumber>
+      <PreparerPersonName>Barney Fife</PreparerPersonName>
+      <PreparerFirmName>
+        <BusinessNameLine1>Barney Fife Liquor and Tax
+Services</BusinessNameLine1>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1>3314 Main St</AddressLine1>
+        <City>Mayberry</City>
+        <State>NC</State>
+        <ZIPCode>74604</ZIPCode>
+      </PreparerUSAddress>
+      <Phone>2022832011</Phone>
+      <EmailAddress>barneyfife@yahoo.com</EmailAddress>
+    </PaidPreparerInformation>
+    <EmailAddress>andytaylor@yahoo.com</EmailAddress>
+    <IPAddress>
+      <IPv4Address>172.27.30.210</IPv4Address>
+    </IPAddress>
+    <Form1098CPaperDocumentInd>X</Form1098CPaperDocumentInd>
+  </ReturnHeader>
+  <ReturnData documentCount="26">
+    <IRS1040 documentId="IRS1040" softwareId="00000000" softwareVersion="String" documentName="IRS1040" referenceDocumentId="BinaryAttachment AllocationRecord Chptr11BnkrptcySttmnt FECRecord Frm1098DffrncSttmnt Frm1098RcpntNMddrSttmnt NameChangeStatement OvrssxtnsnSttmnt PenaltiesStatement SpouseSignatureStatement" referenceDocumentName="BinaryAttachment AllocationRecord Chapter11BankruptcyStatement FECRecord Form1098DifferenceStatement Form1098RecipientNameAndAddressStatement NameChangeStatement OverseasExtensionStatement PenaltiesStatement SpouseSignatureStatement">
+      <PECFSpouseInd>X</PECFSpouseInd>
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <ExemptPrimaryInd>X</ExemptPrimaryInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesSalariesAndTipsAmt wagesNotShownLitOnlyCd="DCB" referenceDocumentId="IRSW2" referenceDocumentName="IRSW2 NonW2DisabilityPaymentStatement WagesNotShownSchedule">50000</WagesSalariesAndTipsAmt>
+      <TotalTaxablePensionsAmt>0</TotalTaxablePensionsAmt>
+      <pensionsAnnuitiesLiteralCd>ROLLOVER</pensionsAnnuitiesLiteralCd>
+      <ForeignEmployerPensionCd>FEP</ForeignEmployerPensionCd>
+      <TaxableForeignPensionsTotalAmt>0</TaxableForeignPensionsTotalAmt>
+      <ProtectiveSec108iELCRecordInd>X</ProtectiveSec108iELCRecordInd>
+      <TotalIncomeAmt>50000</TotalIncomeAmt>
+      <EducatorExpensesAmt>1</EducatorExpensesAmt>
+      <TotalAlimonyPaidAmt>0</TotalAlimonyPaidAmt>
+      <AdjustedGrossIncomeAmt>50000</AdjustedGrossIncomeAmt>
+      <Primary65OrOlderInd>X</Primary65OrOlderInd>
+      <Spouse65OrOlderInd>X</Spouse65OrOlderInd>
+      <TotalItemizedOrStandardDedAmt>10900</TotalItemizedOrStandardDedAmt>
+      <AGILessDeductionsAmt>39100</AGILessDeductionsAmt>
+      <ExemptionAmt>7000</ExemptionAmt>
+      <TaxableIncomeAmt capitalConstructionFundCd="CCF">32100</TaxableIncomeAmt>
+      <TaxAmt referenceDocumentName="RecaptureStatement">4016</TaxAmt>
+      <TotalTxBeforeCrAndOtherTxsAmt>2843</TotalTxBeforeCrAndOtherTxsAmt>
+      <ChildTaxCreditAmt>0</ChildTaxCreditAmt>
+      <SpecificOtherCreditsInd creditFormsStatement="SCH R" creditForElderlyLiteralCd="CFE" referenceDocumentId="IRS1040ScheduleR" referenceDocumentName="IRS1040ScheduleR">X</SpecificOtherCreditsInd>
+      <TotAEICHmbyrCrAndHshdTxAmt>0</TotAEICHmbyrCrAndHshdTxAmt>
+      <TotalOtherTaxAmt referenceDocumentId="OtherTaxStatement" referenceDocumentName="OtherTaxStatement">0</TotalOtherTaxAmt>
+      <TotalTaxAmt>3491</TotalTaxAmt>
+      <WithholdingTaxAmt referenceDocumentName="OtherWithholdingStatement">5000</WithholdingTaxAmt>
+      <MakingWorkPayCrAmt referenceDocumentId="IRS1040ScheduleM" referenceDocumentName="IRS1040ScheduleM">0</MakingWorkPayCrAmt>
+      <RefundableAmerOppCreditAmt referenceDocumentId="IRS8863" referenceDocumentName="IRS8863">0</RefundableAmerOppCreditAmt>
+      <TotalPaymentsAmt>5000</TotalPaymentsAmt>
+      <OverpaidAmt>984</OverpaidAmt>
+      <RefundAmt>984</RefundAmt>
+      <ThirdPartyDesigneeInd>1</ThirdPartyDesigneeInd>
+      <ThirdPartyDesigneeName>Otis Campbell</ThirdPartyDesigneeName>
+      <ThirdPartyDesigneePhone>2022832011</ThirdPartyDesigneePhone>
+      <ThirdPartyDesigneePIN>73645</ThirdPartyDesigneePIN>
+      <PowerOfAttorneyName>Clarence Darrow</PowerOfAttorneyName>
+      <PrimaryOccupation>Professional Loser</PrimaryOccupation>
+      <SpouseOccupation>Housewife</SpouseOccupation>
+      <RefundAnticipationLoanCd>No Bank Product</RefundAnticipationLoanCd>
+    </IRS1040>
+    <IRS1040ScheduleA documentId="IRS1040ScheduleA" softwareId="00000000" softwareVersion="String" documentName="IRS1040ScheduleA" referenceDocumentId="BinaryAttachment" referenceDocumentName="BinaryAttachment">
+      <MedicalAndDentalExpensesAmt>0</MedicalAndDentalExpensesAmt>
+      <TaxReturnAGIAmt>0</TaxReturnAGIAmt>
+      <CalculatedMedicalAllowanceAmt>0</CalculatedMedicalAllowanceAmt>
+      <TotalMedicalAndDentalExpnssAmt>1</TotalMedicalAndDentalExpnssAmt>
+      <StateAndLocalIncomeTaxInd>X</StateAndLocalIncomeTaxInd>
+      <StateAndLocalTaxAmt>0</StateAndLocalTaxAmt>
+      <RealEstateTaxesAmt>0</RealEstateTaxesAmt>
+      <OtherTaxesAmt referenceDocumentId="OtherDeductibleTaxStmt" referenceDocumentName="OtherDeductibleTaxStatement">0</OtherTaxesAmt>
+      <TotalTaxesPaidAmt>0</TotalTaxesPaidAmt>
+      <RptHomeMortgIntAndPointsAmt>0</RptHomeMortgIntAndPointsAmt>
+      <Form1098HomeMortgIntNotRptAmt referenceDocumentId="F1098RcpntNmTNddrSttmnt" referenceDocumentName="Form1098RecipientNameTINAndAddressStatement">0</Form1098HomeMortgIntNotRptAmt>
+      <Form1098PointsNotReportedAmt>0</Form1098PointsNotReportedAmt>
+      <MortgageInsurancePremiumsAmt>0</MortgageInsurancePremiumsAmt>
+      <InvestmentInterestAmt>0</InvestmentInterestAmt>
+      <TotalInterestPaidAmt>0</TotalInterestPaidAmt>
+      <GiftsByCashOrCheckAmt>0</GiftsByCashOrCheckAmt>
+      <OtherThanByCashOrCheckAmt referenceDocumentId="IRS8283" referenceDocumentName="IRS8283">0</OtherThanByCashOrCheckAmt>
+      <CarryoverFromPriorYearAmt>0</CarryoverFromPriorYearAmt>
+      <TotalCharitableContriAmt>0</TotalCharitableContriAmt>
+      <UnreimbursedEmployeeExpnssAmt referenceDocumentId="IRS2106 UnreimbursedExpenseStmt" referenceDocumentName="IRS2106 UnreimbursedExpenseStatement">0</UnreimbursedEmployeeExpnssAmt>
+      <TaxPreparationFeesAmt>0</TaxPreparationFeesAmt>
+      <OtherExpensesAmt referenceDocumentId="OtherExpensesStmt" referenceDocumentName="OtherExpensesStatement">0</OtherExpensesAmt>
+      <TotJobExpnssAndCrtnMiscDedAmt>0</TotJobExpnssAndCrtnMiscDedAmt>
+      <CalcJobExpnssMiscDedAllwncAmt>0</CalcJobExpnssMiscDedAllwncAmt>
+      <NetMiscellaneousDeductionsAmt>0</NetMiscellaneousDeductionsAmt>
+      <OtherMiscellaneousDedAmt referenceDocumentId="OtherMiscDeductionsStmt" referenceDocumentName="OtherMiscellaneousDeductionsStatement">0</OtherMiscellaneousDedAmt>
+      <TotalItemizedDeductionsAmt>10900</TotalItemizedDeductionsAmt>
+      <ItmzdDedLessThanStdDedInd>X</ItmzdDedLessThanStdDedInd>
+      <NewMtrVehSalesOrExciseTaxAmt>0</NewMtrVehSalesOrExciseTaxAmt>
+      <NewMtrVehPrchsPriceBfrTaxesAmt>0</NewMtrVehPrchsPriceBfrTaxesAmt>
+      <NewMtrVehExcessPriceInd>1</NewMtrVehExcessPriceInd>
+      <NewMtrVehAttributableTaxAmt>0</NewMtrVehAttributableTaxAmt>
+      <AdjustedGrossIncomeAmt>0</AdjustedGrossIncomeAmt>
+      <HousingOrForeignIncomeExclAmt>0</HousingOrForeignIncomeExclAmt>
+      <SumOfAGIAndForeignIncmExclAmt>0</SumOfAGIAndForeignIncmExclAmt>
+      <NewMotorVehicleIncomeLmtDedAmt>0</NewMotorVehicleIncomeLmtDedAmt>
+      <NewMtrVehIncmOverLimitInd>1</NewMtrVehIncmOverLimitInd>
+      <NewMtrVehDedNetTotalIncmAmt>0</NewMtrVehDedNetTotalIncmAmt>
+      <NewMtrVehDedCalculatedIncmRt>0.00000</NewMtrVehDedCalculatedIncmRt>
+      <NewMtrVehPriceTimesDcmlAmt>0</NewMtrVehPriceTimesDcmlAmt>
+      <NewMtrVehAllowedDeductionAmt>0</NewMtrVehAllowedDeductionAmt>
+    </IRS1040ScheduleA>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB" softwareId="00000000" softwareVersion="String" documentName="IRS1040ScheduleB">
+      <Form1040SchBPartIGroup1>
+        <SellerFinancedName>String</SellerFinancedName>
+        <SellerFinancedAddressUS>
+          <AddressLine1>String</AddressLine1>
+          <AddressLine2>String</AddressLine2>
+          <City>String</City>
+          <State>AL</State>
+          <ZIPCode>000000000</ZIPCode>
+        </SellerFinancedAddressUS>
+        <SellerFinancedSSN>000000000</SellerFinancedSSN>
+        <SellerFinancedMortgageIntAmt>0</SellerFinancedMortgageIntAmt>
+      </Form1040SchBPartIGroup1>
+      <TotalSellerFinancedMortgIntAmt>0</TotalSellerFinancedMortgIntAmt>
+      <Form1040SchBPartIGroup2>
+        <InterestPayerName>
+          <BusinessNameLine1>String</BusinessNameLine1>
+          <BusinessNameLine2>String</BusinessNameLine2>
+        </InterestPayerName>
+        <InterestAmt>0</InterestAmt>
+      </Form1040SchBPartIGroup2>
+      <InterestSubtotalAmt interestSubtotalLiteralCd="INTEREST SUBTOTAL">0</InterestSubtotalAmt>
+      <NomineeInterestAmt nomineeInterestLiteralCd="NOMINEE DISTRIBUTION">0</NomineeInterestAmt>
+      <AccruedInterestAmt accruedInterestLiteralCd="ACCRUED INTEREST">0</AccruedInterestAmt>
+      <AccruedMarketDiscountAmt accruedMarketDiscountLiteralCd="ACCRUED MARKET DISCOUNT">0</AccruedMarketDiscountAmt>
+      <OriginalIssueDiscountAdjAmt originalIssueDiscountAdjLitCd="OID ADJUSTMENT">0</OriginalIssueDiscountAdjAmt>
+      <AmortizableBondPremAdjAmt amortizableBondPremiumAdjLitCd="ABP ADJUSTMENT">0</AmortizableBondPremAdjAmt>
+      <TaxableInterestSubtotalAmt>0</TaxableInterestSubtotalAmt>
+      <CalculatedTotalTaxableIntAmt>0</CalculatedTotalTaxableIntAmt>
+      <Form1040SchBPartII>
+        <DividendPayerNameBusiness>
+          <BusinessNameLine1>String</BusinessNameLine1>
+          <BusinessNameLine2>String</BusinessNameLine2>
+        </DividendPayerNameBusiness>
+        <DividendAmt>0</DividendAmt>
+      </Form1040SchBPartII>
+      <OrdinaryDividendSubtotalAmt dividendSubtotalLiteralCd="DIVIDEND SUBTOTAL">0</OrdinaryDividendSubtotalAmt>
+      <NomineeDividendAmt nomineeDividendLiteralCd="NOMINEE DISTRIBUTION">0</NomineeDividendAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+      <Form8814LiteralCd>FORM8814</Form8814LiteralCd>
+      <ForeignAccountsQuestionInd>1</ForeignAccountsQuestionInd>
+      <ForeignCountryName>AF</ForeignCountryName>
+      <ForeignTrustQuestionInd>1</ForeignTrustQuestionInd>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC" softwareId="00000000" softwareVersion="String" documentName="IRS1040ScheduleC" referenceDocumentId="BinaryAttachment" referenceDocumentName="BinaryAttachment">
+      <NameOfProprietor>String</NameOfProprietor>
+      <SSN>000000000</SSN>
+      <PrincipalBusinessActivity>String</PrincipalBusinessActivity>
+      <BusinessActivityCode>000001</BusinessActivityCode>
+      <BusinessName>String</BusinessName>
+      <EIN>000000000</EIN>
+      <BusinessUSAddress>
+        <AddressLine1>String</AddressLine1>
+        <AddressLine2>String</AddressLine2>
+        <City>String</City>
+        <State>AL</State>
+        <ZIPCode>000000000</ZIPCode>
+      </BusinessUSAddress>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <MaterialParticipationInCYInd>1</MaterialParticipationInCYInd>
+      <NewBusinessInCurrentYearInd>X</NewBusinessInCurrentYearInd>
+      <StatutoryEmployeeOrQJVInd>X</StatutoryEmployeeOrQJVInd>
+      <GrossReceiptsOrSalesAmt referenceDocumentId="InstllmntMthdSchdl NnmplCmpnxf1099MSCStmt" referenceDocumentName="InstallmentMethodSchedule NonemployeeCompensationInExcessOf1099MISCStatement">1</GrossReceiptsOrSalesAmt>
+      <ReturnsAndAllowancesAmt>0</ReturnsAndAllowancesAmt>
+      <NetGrossReceiptsAmt>1</NetGrossReceiptsAmt>
+      <GrossProfitAmt>0</GrossProfitAmt>
+      <OtherIncomeAmt>0</OtherIncomeAmt>
+      <GrossIncomeAmt>0</GrossIncomeAmt>
+      <AdvertisingAmt>0</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>0</CarAndTruckExpensesAmt>
+      <CommissionsAndFeesAmt>0</CommissionsAndFeesAmt>
+      <ContractLaborAmt>0</ContractLaborAmt>
+      <DepletionAmt>0</DepletionAmt>
+      <DepreciationAndSection179Amt referenceDocumentId="IRS4562" referenceDocumentName="IRS4562">0</DepreciationAndSection179Amt>
+      <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+      <InsuranceAmt>0</InsuranceAmt>
+      <MortgageInterestPaidBanksAmt>0</MortgageInterestPaidBanksAmt>
+      <MortgageInterestPaidOtherAmt>0</MortgageInterestPaidOtherAmt>
+      <LegalAndProfessionalServiceAmt>0</LegalAndProfessionalServiceAmt>
+      <OfficeExpensesAmt>0</OfficeExpensesAmt>
+      <PensionProfitSharingPlansAmt>0</PensionProfitSharingPlansAmt>
+      <MachineryAndEquipmentRentAmt>0</MachineryAndEquipmentRentAmt>
+      <OtherBusinessPropertyRentAmt>0</OtherBusinessPropertyRentAmt>
+      <RepairsAndMaintenanceAmt>0</RepairsAndMaintenanceAmt>
+      <SuppliesAmt>0</SuppliesAmt>
+      <TaxesAndLicensesAmt>0</TaxesAndLicensesAmt>
+      <TravelAmt>0</TravelAmt>
+      <MealsAndEntertainmentAmt>0</MealsAndEntertainmentAmt>
+      <UtilitiesAmt>0</UtilitiesAmt>
+      <WagesLessEmploymentCreditsAmt>0</WagesLessEmploymentCreditsAmt>
+      <TotalExpensesAmt>0</TotalExpensesAmt>
+      <TentativeProfitOrLossAmt>0</TentativeProfitOrLossAmt>
+      <HomeBusinessExpenseAmt referenceDocumentId="IRS8829" referenceDocumentName="IRS8829">0</HomeBusinessExpenseAmt>
+      <NetProfitOrLossAmt passiveActivityLossLiteralCd="PAL" pALAmount="0">0</NetProfitOrLossAmt>
+      <AllInvestmentIsAtRiskInd>X</AllInvestmentIsAtRiskInd>
+      <ClosingInventoryCostMethodInd>X</ClosingInventoryCostMethodInd>
+      <ChangeInValuationsInd referenceDocumentId="ChngnVltnsSttmnt" referenceDocumentName="ChangeInValuationsStatement">1</ChangeInValuationsInd>
+      <BeginningOfYearInventoryAmt referenceDocumentId="BgnnngfYrnvntryDffStmt" referenceDocumentName="BeginningOfYearInventoryDifferenceStatement">0</BeginningOfYearInventoryAmt>
+      <PurchasesLessPersonalItemsAmt>0</PurchasesLessPersonalItemsAmt>
+      <CostOfLaborAmt>0</CostOfLaborAmt>
+      <MaterialsAndSuppliesAmt>0</MaterialsAndSuppliesAmt>
+      <OtherCostsAmt>0</OtherCostsAmt>
+      <TotalCostsAmt>0</TotalCostsAmt>
+      <EndOfYearInventoryAmt>0</EndOfYearInventoryAmt>
+      <CostOfGoodsSoldAmt>0</CostOfGoodsSoldAmt>
+      <AdditionalVehicleInformation>
+        <DateVehiclePlacedInService>1999-05-30</DateVehiclePlacedInService>
+        <BusinessMilesCnt>0</BusinessMilesCnt>
+        <CommutingMilesCnt>0</CommutingMilesCnt>
+        <OtherMilesCnt>0</OtherMilesCnt>
+        <AvailableForOffDutyHoursInd>1</AvailableForOffDutyHoursInd>
+        <AnotherVehicleInd>1</AnotherVehicleInd>
+        <EvidenceToSupportDeductionInd>1</EvidenceToSupportDeductionInd>
+        <EvidenceWrittenInd>1</EvidenceWrittenInd>
+      </AdditionalVehicleInformation>
+      <OtherExpenses referenceDocumentId="IRS4562" referenceDocumentName="IRS4562">
+        <Description>String</Description>
+        <Amount>0</Amount>
+      </OtherExpenses>
+      <TotalOtherExpensesAmt>0</TotalOtherExpensesAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleD documentId="IRS1040ScheduleD" softwareId="00000000" softwareVersion="String" documentName="IRS1040ScheduleD" referenceDocumentId="BinaryAttachment" referenceDocumentName="BinaryAttachment">
+      <ShortTermCapitalGainAndLoss>
+        <STDescriptionOfProperty referenceDocumentId="BadDebtStatement2" referenceDocumentName="BadDebtStatement2">String</STDescriptionOfProperty>
+        <STDateAcquired>1999-05-30</STDateAcquired>
+        <STDateSold>1999-05-30</STDateSold>
+        <STSalesPriceAmt referenceDocumentId="DffnGrssPrcdsRptStmt" referenceDocumentName="DifferenceInGrossProceedsReportedStatement">0</STSalesPriceAmt>
+        <STCostOrOtherBasisAmt referenceDocumentId="CstthThnctlCshCstStmt" referenceDocumentName="CostOtherThanActualCashCostStatement">0</STCostOrOtherBasisAmt>
+        <STGainOrLossAmt referenceDocumentId="SSBICRolloverStatement" referenceDocumentName="SSBICRolloverStatement">0</STGainOrLossAmt>
+      </ShortTermCapitalGainAndLoss>
+      <TotalSTSalesPriceAmt>0</TotalSTSalesPriceAmt>
+      <NetSTGainOrLossFromSchK1Amt>0</NetSTGainOrLossFromSchK1Amt>
+      <STCapitalLossCarryoverAmt>1</STCapitalLossCarryoverAmt>
+      <NetSTCapitalGainOrLossAmt>0</NetSTCapitalGainOrLossAmt>
+      <LongTermCapitalGainAndLoss>
+        <LTDescriptionOfProperty referenceDocumentId="Section1042AElection VerifiedESOPStatement" referenceDocumentName="Section1042AElection VerifiedESOPStatement">String</LTDescriptionOfProperty>
+        <LTDateAcquired>1999-05-30</LTDateAcquired>
+        <LTDateSold>1999-05-30</LTDateSold>
+        <LTSalesPriceAmt referenceDocumentId="DffnGrssPrcdsRptStmt" referenceDocumentName="DifferenceInGrossProceedsReportedStatement">0</LTSalesPriceAmt>
+        <LTCostOrOtherBasisAmt referenceDocumentId="CstthThnctlCshCstStmt" referenceDocumentName="CostOtherThanActualCashCostStatement">0</LTCostOrOtherBasisAmt>
+        <LTGainOrLossAmt referenceDocumentId="SSBICRolloverStatement" referenceDocumentName="SSBICRolloverStatement">0</LTGainOrLossAmt>
+      </LongTermCapitalGainAndLoss>
+      <TotalLTSalesPriceAmt>0</TotalLTSalesPriceAmt>
+      <NetLTGainOrLossFromSchK1Amt>0</NetLTGainOrLossFromSchK1Amt>
+      <CapitalGainDistributionsAmt>0</CapitalGainDistributionsAmt>
+      <LTCapitalLossCarryoverAmt>1</LTCapitalLossCarryoverAmt>
+      <NetLTCapitalGainOrLossAmt>0</NetLTCapitalGainOrLossAmt>
+      <NetSTAndLTCapitalGainOrLossAmt>0</NetSTAndLTCapitalGainOrLossAmt>
+      <STAndLTGainInd>1</STAndLTGainInd>
+      <RateGainWrkshtAmt referenceDocumentId="UnrlzdpprcnCllctblsStmt" referenceDocumentName="UnrealizedAppreciationOfCollectiblesStatement">0</RateGainWrkshtAmt>
+      <UnrcptrSect1250GainWrkshtAmt>0</UnrcptrSect1250GainWrkshtAmt>
+      <ZeroOrBlankInd>1</ZeroOrBlankInd>
+      <AllowableLossAmt>0</AllowableLossAmt>
+      <QualifiedDividendsInd>1</QualifiedDividendsInd>
+    </IRS1040ScheduleD>
+    <IRS1040ScheduleE documentId="IRS1040ScheduleE" softwareId="00000000" softwareVersion="String" documentName="IRS1040ScheduleE" referenceDocumentId="BinaryAttachment" referenceDocumentName="BinaryAttachment">
+      <PropertyRealEstAndRoyaltyGroup>
+        <PropertyType>String</PropertyType>
+        <PropertyUSAddress>
+          <AddressLine1>String</AddressLine1>
+          <AddressLine2>String</AddressLine2>
+          <City>String</City>
+          <State>AL</State>
+          <ZIPCode>000000000</ZIPCode>
+        </PropertyUSAddress>
+        <PersonalUseInd>1</PersonalUseInd>
+        <RentsReceivedAmt>0</RentsReceivedAmt>
+        <RoyaltiesReceivedAmt>0</RoyaltiesReceivedAmt>
+        <AdvertisingAmt>0</AdvertisingAmt>
+        <AutoAndTravelAmt>0</AutoAndTravelAmt>
+        <CleaningAndMaintenanceAmt>0</CleaningAndMaintenanceAmt>
+        <CommissionsAmt>0</CommissionsAmt>
+        <InsuranceAmt>0</InsuranceAmt>
+        <LegalAndOtherProfFeesAmt>0</LegalAndOtherProfFeesAmt>
+        <ManagementFeesAmt>0</ManagementFeesAmt>
+        <MortgageInterestPaidAmt>0</MortgageInterestPaidAmt>
+        <OtherInterestAmt>0</OtherInterestAmt>
+        <RepairsAmt>0</RepairsAmt>
+        <SuppliesAmt>0</SuppliesAmt>
+        <TaxesAmt>0</TaxesAmt>
+        <UtilitiesAmt>0</UtilitiesAmt>
+        <Other referenceDocumentId="IRS4562" referenceDocumentName="IRS4562">
+          <OtherExpenseDescription>String</OtherExpenseDescription>
+          <OtherExpenseAmt>0</OtherExpenseAmt>
+        </Other>
+        <RentAndRyltyExpnssPerPropAmt>0</RentAndRyltyExpnssPerPropAmt>
+        <DeprecExpenseOrDepletionAmt referenceDocumentId="IRS4562" referenceDocumentName="IRS4562">0</DeprecExpenseOrDepletionAmt>
+        <TotalExpensesAmt>0</TotalExpensesAmt>
+        <NetRentalIncomeOrLossAmt>0</NetRentalIncomeOrLossAmt>
+        <DedRentalRealEstateLossAmt>1</DedRentalRealEstateLossAmt>
+      </PropertyRealEstAndRoyaltyGroup>
+      <TotalRentsReceivedAmt>0</TotalRentsReceivedAmt>
+      <TotalRoyaltiesReceivedAmt>0</TotalRoyaltiesReceivedAmt>
+      <TotalMortgageInterestPaidAmt>0</TotalMortgageInterestPaidAmt>
+      <TotalRentalAndRoyaltyDedAmt>0</TotalRentalAndRoyaltyDedAmt>
+      <TotalDepreciationAmt>0</TotalDepreciationAmt>
+      <IncomeAmt>0</IncomeAmt>
+      <LossesAmt>1</LossesAmt>
+      <TotalIncomeOrLossAmt nonpassiveActivityLiteralCd="NPA" nonpassiveActivityAmt="1">0</TotalIncomeOrLossAmt>
+      <PriorYearsLossesInd>1</PriorYearsLossesInd>
+      <PartnershipOrSCorpGroup>
+        <PartnershipOrSCorpName>String</PartnershipOrSCorpName>
+        <PartnershipSCorpCd>P</PartnershipSCorpCd>
+        <ForeignPartnershipInd>X</ForeignPartnershipInd>
+        <PartnershipOrSCorpEIN>000000000</PartnershipOrSCorpEIN>
+        <AnyAmountIsNotAtRiskInd>X</AnyAmountIsNotAtRiskInd>
+        <PassiveLossAllowedAmt>0</PassiveLossAllowedAmt>
+        <BusinessPassiveIncomeAmt>0</BusinessPassiveIncomeAmt>
+        <NonpassiveLossAmt>0</NonpassiveLossAmt>
+        <Sect179ExpenseDeductionAmt>0</Sect179ExpenseDeductionAmt>
+        <NonpassiveIncomeAmt>0</NonpassiveIncomeAmt>
+      </PartnershipOrSCorpGroup>
+      <TotalPassiveIncomeAmt>0</TotalPassiveIncomeAmt>
+      <BusTotalNonpassiveIncomeAmt>0</BusTotalNonpassiveIncomeAmt>
+      <TotalPassiveLossAllowedAmt>0</TotalPassiveLossAllowedAmt>
+      <TotalNonpassiveLossAmt>0</TotalNonpassiveLossAmt>
+      <TotSect179ExpenseDeductionAmt>0</TotSect179ExpenseDeductionAmt>
+      <TotalPrtshpSCorpIncomeAmt>0</TotalPrtshpSCorpIncomeAmt>
+      <TotalPrtshpSCorpLossAmt>1</TotalPrtshpSCorpLossAmt>
+      <NetPrtshpSCorpIncomeOrLossAmt>0</NetPrtshpSCorpIncomeOrLossAmt>
+      <EstateAndTrustGroup>
+        <EstateOrTrustName>
+          <BusinessNameLine1>String</BusinessNameLine1>
+          <BusinessNameLine2>String</BusinessNameLine2>
+        </EstateOrTrustName>
+        <EstateOrTrustEIN>000000000</EstateOrTrustEIN>
+        <PassiveDedOrLossAllowedAmt>0</PassiveDedOrLossAllowedAmt>
+        <EstateAndTrustPassiveIncomeAmt>0</EstateAndTrustPassiveIncomeAmt>
+        <DeductionOrLossAmt>0</DeductionOrLossAmt>
+        <OtherIncomeAmt>0</OtherIncomeAmt>
+      </EstateAndTrustGroup>
+      <EstateAndTrustTotPssvIncmAmt>0</EstateAndTrustTotPssvIncmAmt>
+      <TotalOtherIncomeAmt>0</TotalOtherIncomeAmt>
+      <TotPassiveDedOrLossAllowedAmt>0</TotPassiveDedOrLossAllowedAmt>
+      <TotalDeductionOrLossAmt>0</TotalDeductionOrLossAmt>
+      <TotalEstateOrTrustIncomeAmt>0</TotalEstateOrTrustIncomeAmt>
+      <TotalEstateOrTrustLossAmt>1</TotalEstateOrTrustLossAmt>
+      <TotEstateAndTrustIncOrLossAmt schK1ESPaymentsLiteralCd="ES PAYMENT CLAIMED" schK1ESPaymentsAmt="0">0</TotEstateAndTrustIncOrLossAmt>
+      <REMICGroup>
+        <REMICName>
+          <BusinessNameLine1>String</BusinessNameLine1>
+          <BusinessNameLine2>String</BusinessNameLine2>
+        </REMICName>
+        <REMICEIN>000000000</REMICEIN>
+        <ExcessInclusionAmt>0</ExcessInclusionAmt>
+        <TaxableIncomeOrNetLossAmt>0</TaxableIncomeOrNetLossAmt>
+        <REMICIncomeAmt>0</REMICIncomeAmt>
+      </REMICGroup>
+      <TotalREMICIncomeAmt>0</TotalREMICIncomeAmt>
+      <TotalSuppIncomeOrLossAmt>0</TotalSuppIncomeOrLossAmt>
+      <FarmingAndFishingIncomeAmt>0</FarmingAndFishingIncomeAmt>
+      <RecnclForREProfessionalsAmt>0</RecnclForREProfessionalsAmt>
+    </IRS1040ScheduleE>
+    <IRS1040ScheduleR documentId="IRS1040ScheduleR" softwareId="00000000" softwareVersion="String" documentName="IRS1040ScheduleR">
+      <Primary65OrOlderInd>X</Primary65OrOlderInd>
+      <PriorYearStatementInd spouseName="String">X</PriorYearStatementInd>
+      <FilingStatusAmt>5000</FilingStatusAmt>
+      <TaxableDisabilityAmt>0</TaxableDisabilityAmt>
+      <SmallerOfFSOrTaxableAmt>0</SmallerOfFSOrTaxableAmt>
+      <NontxSocSecAndRlrdBenefitsAmt>0</NontxSocSecAndRlrdBenefitsAmt>
+      <NontaxableOtherAmt>0</NontaxableOtherAmt>
+      <TotalNontaxableAmt>0</TotalNontaxableAmt>
+      <TaxReturnAGIAmt>0</TaxReturnAGIAmt>
+      <ExemptionAmt>7500</ExemptionAmt>
+      <AGIAmt>0</AGIAmt>
+      <HalfAGIAmt>0</HalfAGIAmt>
+      <AdjustedCreditAmt>0</AdjustedCreditAmt>
+      <NetCreditAmt>0</NetCreditAmt>
+      <CalculatedAmountOfNetCreditAmt>0</CalculatedAmountOfNetCreditAmt>
+      <TotalTaxLessCreditsAmt>0</TotalTaxLessCreditsAmt>
+      <CreditForElderlyOrDisabledAmt>0</CreditForElderlyOrDisabledAmt>
+    </IRS1040ScheduleR>
+    <ClergySelfEmplmnIncomeWrksht documentId="ClrgySlfmplmnncmWrksht" softwareId="00000000" softwareVersion="String" documentName="ClergySelfEmploymentIncomeWorksheet">
+      <SSNOfMinister>000000000</SSNOfMinister>
+      <WagesAmt>0</WagesAmt>
+      <NetProfitOrLossAmt>0</NetProfitOrLossAmt>
+      <MinisterSEIncmPrsngAllwncAmt>0</MinisterSEIncmPrsngAllwncAmt>
+      <MinisterSEIncmUtilityAllwncAmt>0</MinisterSEIncmUtilityAllwncAmt>
+      <MinisterSEIncmTotAllwncAmt>0</MinisterSEIncmTotAllwncAmt>
+      <MinisterSEIncmTotIncmAllwncAmt>0</MinisterSEIncmTotIncmAllwncAmt>
+      <FgrSchCDedNondedExpenseAmt>0</FgrSchCDedNondedExpenseAmt>
+      <FgrFrm2106DedTotUnreimExpnsAmt>0</FgrFrm2106DedTotUnreimExpnsAmt>
+      <MinisterSEIncmTotBusNotDedAmt>0</MinisterSEIncmTotBusNotDedAmt>
+      <NetNonFarmProfitLossAmt>0</NetNonFarmProfitLossAmt>
+    </ClergySelfEmplmnIncomeWrksht>
+    <ClergyTaxFreeIncomeWorksheet documentId="ClrgyTxFrncmWrksht" softwareId="00000000" softwareVersion="String" documentName="ClergyTaxFreeIncomeWorksheet">
+      <SSNOfMinister>000000000</SSNOfMinister>
+      <WagesAmt>0</WagesAmt>
+      <GrossReceiptsOrSalesAmt>0</GrossReceiptsOrSalesAmt>
+      <ParsonageProvidedByChurchGrp>
+        <PrsngProvByChurchFRVAmt>0</PrsngProvByChurchFRVAmt>
+        <PrsngProvUtilityAllowanceAmt>0</PrsngProvUtilityAllowanceAmt>
+        <PrsngProvActlUtilityExpenseAmt>0</PrsngProvActlUtilityExpenseAmt>
+        <SmallerUtilityExpnsOrAllwncAmt>0</SmallerUtilityExpnsOrAllwncAmt>
+        <ExcessUtilityAllowanceAmt>0</ExcessUtilityAllowanceAmt>
+        <ParsonageOrRentalAllwanceAmt>0</ParsonageOrRentalAllwanceAmt>
+        <NoPrsngUtilityAllowanceAmt>0</NoPrsngUtilityAllowanceAmt>
+        <NoPrsngTotRntlUtltsAllwncAmt>0</NoPrsngTotRntlUtltsAllwncAmt>
+        <NoPrsngActlParsonageExpenseAmt>0</NoPrsngActlParsonageExpenseAmt>
+        <NoPrsngActualUtilityExpenseAmt>0</NoPrsngActualUtilityExpenseAmt>
+        <TotalParsonageUtilityExpnssAmt>0</TotalParsonageUtilityExpnssAmt>
+        <NoPrsngFRVOfHomePlusUtltsAmt>0</NoPrsngFRVOfHomePlusUtltsAmt>
+        <SmallerOfAllwncActualOrFRVAmt>0</SmallerOfAllwncActualOrFRVAmt>
+        <ExcessChurchAllowanceAmt>0</ExcessChurchAllowanceAmt>
+      </ParsonageProvidedByChurchGrp>
+      <TotalTaxableMinisterialIncmAmt>0</TotalTaxableMinisterialIncmAmt>
+      <TotalTxFreeMinisterialIncmAmt>0</TotalTxFreeMinisterialIncmAmt>
+      <TotalMinisterialIncomeAmt>0</TotalMinisterialIncomeAmt>
+      <MinisterialTaxFreeIncomePct>0.00000</MinisterialTaxFreeIncomePct>
+    </ClergyTaxFreeIncomeWorksheet>
+    <IRS2210 documentId="IRS2210" softwareId="00000000" softwareVersion="String" documentName="IRS2210" referenceDocumentId="WvrxplntnSttmnt BinaryAttachment" referenceDocumentName="WaiverExplanationStatement BinaryAttachment">
+      <CurrentYearTaxAfterCreditsAmt>0</CurrentYearTaxAfterCreditsAmt>
+      <OtherTaxesAmt>0</OtherTaxesAmt>
+      <RefundableCreditsAmt>1</RefundableCreditsAmt>
+      <CurrentYearTaxAmt>0</CurrentYearTaxAmt>
+      <CurrentYearTaxCalculatedAmt>0</CurrentYearTaxCalculatedAmt>
+      <WithholdingTaxesAmt>0</WithholdingTaxesAmt>
+      <NetTaxDueAmt>0</NetTaxDueAmt>
+      <AnnualPaymentBasedOnPriorYrAmt>0</AnnualPaymentBasedOnPriorYrAmt>
+      <RequiredAnnualPaymentAmt>0</RequiredAnnualPaymentAmt>
+      <OwePenaltyInd>1</OwePenaltyInd>
+      <WaiverOfEntirePenaltyInd>X</WaiverOfEntirePenaltyInd>
+      <WaiverOfPartOfPenaltyInd>X</WaiverOfPartOfPenaltyInd>
+      <AnnualizedIncomeMethodInd>X</AnnualizedIncomeMethodInd>
+      <ActuallyWithheldInd>X</ActuallyWithheldInd>
+      <JointReturnInd>X</JointReturnInd>
+      <TotalEstimatedTaxPaymentsAmt>0</TotalEstimatedTaxPaymentsAmt>
+      <TotalWhTaxesAndESPaymentsAmt>0</TotalWhTaxesAndESPaymentsAmt>
+      <TotalUnderpaymentForYearAmt>0</TotalUnderpaymentForYearAmt>
+      <TotalUnderpaymentCalculatedAmt>0</TotalUnderpaymentCalculatedAmt>
+      <DueDatePaidMultipliedAmt>0</DueDatePaidMultipliedAmt>
+      <PenaltyAmt waivedLiteralShortMethodCd="AMOUNT WAIVED" waivedShortMethodAmt="0">0</PenaltyAmt>
+      <RequiredInstallmentAAmt>0</RequiredInstallmentAAmt>
+      <RequiredInstallmentBAmt>0</RequiredInstallmentBAmt>
+      <RequiredInstallmentCAmt>0</RequiredInstallmentCAmt>
+      <RequiredInstallmentDAmt>0</RequiredInstallmentDAmt>
+      <EstimatedTaxPdAndWithheldAAmt>0</EstimatedTaxPdAndWithheldAAmt>
+      <EstimatedTaxPdAndWithheldBAmt>0</EstimatedTaxPdAndWithheldBAmt>
+      <EstimatedTaxPdAndWithheldCAmt>0</EstimatedTaxPdAndWithheldCAmt>
+      <EstimatedTaxPdAndWithheldDAmt>0</EstimatedTaxPdAndWithheldDAmt>
+      <UnderpaymentAAmt>0</UnderpaymentAAmt>
+      <OverpaymentAAmt>0</OverpaymentAAmt>
+      <TaxToBeAppliedBAmt>0</TaxToBeAppliedBAmt>
+      <TaxesDueColumnBAmt>0</TaxesDueColumnBAmt>
+      <AppliedOverpaymentBAmt>0</AppliedOverpaymentBAmt>
+      <AppliedUnderpaymentBAmt>0</AppliedUnderpaymentBAmt>
+      <UnderpaymentBAmt>0</UnderpaymentBAmt>
+      <OverpaymentBAmt>0</OverpaymentBAmt>
+      <TaxToBeAppliedCAmt>0</TaxToBeAppliedCAmt>
+      <TaxesDueColumnCAmt>0</TaxesDueColumnCAmt>
+      <AppliedOverpaymentCAmt>0</AppliedOverpaymentCAmt>
+      <AppliedUnderpaymentCAmt>0</AppliedUnderpaymentCAmt>
+      <UnderpaymentCAmt>0</UnderpaymentCAmt>
+      <OverpaymentCAmt>0</OverpaymentCAmt>
+      <TaxToBeAppliedDAmt>0</TaxToBeAppliedDAmt>
+      <TaxesDueColumnDAmt>0</TaxesDueColumnDAmt>
+      <AppliedOverpaymentDAmt>0</AppliedOverpaymentDAmt>
+      <UnderpaymentDAmt>0</UnderpaymentDAmt>
+      <TotalPenaltyAmt waivedLiteralRegularMethodCd="AMOUNT WAIVED" waivedRegularMethodAmt="0">0</TotalPenaltyAmt>
+      <AGIPeriodAAmt>0</AGIPeriodAAmt>
+      <AnnualizedIncomeAAmt>0</AnnualizedIncomeAAmt>
+      <ItemizedDeductionsAAmt>0</ItemizedDeductionsAAmt>
+      <AnnualizedItemizedDedAAmt>0</AnnualizedItemizedDedAAmt>
+      <ReturnStandardDeductionAAmt>0</ReturnStandardDeductionAAmt>
+      <InstallmentDeductionAAmt>0</InstallmentDeductionAAmt>
+      <NetIncomeAAmt>0</NetIncomeAAmt>
+      <ExemptionClaimedAAmt>0</ExemptionClaimedAAmt>
+      <TaxableIncomeAAmt>0</TaxableIncomeAAmt>
+      <TentativeTaxAAmt>0</TentativeTaxAAmt>
+      <OtherTaxesAAmt>0</OtherTaxesAAmt>
+      <TaxBeforeCreditsAAmt>0</TaxBeforeCreditsAAmt>
+      <AllowedCreditsAAmt>0</AllowedCreditsAAmt>
+      <NetTaxDueAAmt>0</NetTaxDueAAmt>
+      <ApplicableTaxDueAAmt>0</ApplicableTaxDueAAmt>
+      <TaxDueAAmt>0</TaxDueAAmt>
+      <InstallmentTaxAAmt>0</InstallmentTaxAAmt>
+      <AggregateTaxDueAAmt>0</AggregateTaxDueAAmt>
+      <AnnualizedIncomeInstallAAmt>0</AnnualizedIncomeInstallAAmt>
+      <AGIPeriodBAmt>0</AGIPeriodBAmt>
+      <AnnualizedIncomeBAmt>0</AnnualizedIncomeBAmt>
+      <ItemizedDeductionsBAmt>0</ItemizedDeductionsBAmt>
+      <AnnualizedItemizedDedBAmt>0</AnnualizedItemizedDedBAmt>
+      <ReturnStandardDeductionBAmt>0</ReturnStandardDeductionBAmt>
+      <InstallmentDeductionBAmt>0</InstallmentDeductionBAmt>
+      <NetIncomeBAmt>0</NetIncomeBAmt>
+      <ExemptionClaimedBAmt>0</ExemptionClaimedBAmt>
+      <TaxableIncomeBAmt>0</TaxableIncomeBAmt>
+      <TentativeTaxBAmt>0</TentativeTaxBAmt>
+      <OtherTaxesBAmt>0</OtherTaxesBAmt>
+      <TaxBeforeCreditsBAmt>0</TaxBeforeCreditsBAmt>
+      <AllowedCreditsBAmt>0</AllowedCreditsBAmt>
+      <NetTaxDueBAmt>0</NetTaxDueBAmt>
+      <ApplicableTaxDueBAmt>0</ApplicableTaxDueBAmt>
+      <TaxDueBAmt>0</TaxDueBAmt>
+      <InstallmentTaxBAmt>0</InstallmentTaxBAmt>
+      <AccumulatedAdjustedTaxBAmt>0</AccumulatedAdjustedTaxBAmt>
+      <AggregateTaxDueBAmt>0</AggregateTaxDueBAmt>
+      <AnnualizedIncomeInstallBAmt>0</AnnualizedIncomeInstallBAmt>
+      <AGIPeriodCAmt>0</AGIPeriodCAmt>
+      <AnnualizedIncomeCAmt>0</AnnualizedIncomeCAmt>
+      <ItemizedDeductionsCAmt>0</ItemizedDeductionsCAmt>
+      <AnnualizedItemizedDedCAmt>0</AnnualizedItemizedDedCAmt>
+      <ReturnStandardDeductionCAmt>0</ReturnStandardDeductionCAmt>
+      <InstallmentDeductionCAmt>0</InstallmentDeductionCAmt>
+      <NetIncomeCAmt>0</NetIncomeCAmt>
+      <ExemptionClaimedCAmt>0</ExemptionClaimedCAmt>
+      <TaxableIncomeCAmt>0</TaxableIncomeCAmt>
+      <TentativeTaxCAmt>0</TentativeTaxCAmt>
+      <OtherTaxesCAmt>0</OtherTaxesCAmt>
+      <TaxBeforeCreditsCAmt>0</TaxBeforeCreditsCAmt>
+      <AllowedCreditsCAmt>0</AllowedCreditsCAmt>
+      <NetTaxDueCAmt>0</NetTaxDueCAmt>
+      <ApplicableTaxDueCAmt>0</ApplicableTaxDueCAmt>
+      <TaxDueCAmt>0</TaxDueCAmt>
+      <InstallmentTaxCAmt>0</InstallmentTaxCAmt>
+      <AccumulatedAdjustedTaxCAmt>0</AccumulatedAdjustedTaxCAmt>
+      <AggregateTaxDueCAmt>0</AggregateTaxDueCAmt>
+      <AnnualizedIncomeInstallCAmt>0</AnnualizedIncomeInstallCAmt>
+      <AGIPeriodDAmt>0</AGIPeriodDAmt>
+      <AnnualizedIncomeDAmt>0</AnnualizedIncomeDAmt>
+      <ItemizedDeductionsDAmt>0</ItemizedDeductionsDAmt>
+      <AnnualizedItemizedDedDAmt>0</AnnualizedItemizedDedDAmt>
+      <ReturnStandardDeductionDAmt>0</ReturnStandardDeductionDAmt>
+      <InstallmentDeductionDAmt>0</InstallmentDeductionDAmt>
+      <NetIncomeDAmt>0</NetIncomeDAmt>
+      <ExemptionClaimedDAmt>0</ExemptionClaimedDAmt>
+      <TaxableIncomeDAmt>0</TaxableIncomeDAmt>
+      <TentativeTaxDAmt>0</TentativeTaxDAmt>
+      <OtherTaxesDAmt>0</OtherTaxesDAmt>
+      <TaxBeforeCreditsDAmt>0</TaxBeforeCreditsDAmt>
+      <AllowedCreditsDAmt>0</AllowedCreditsDAmt>
+      <NetTaxDueDAmt>0</NetTaxDueDAmt>
+      <ApplicableTaxDueDAmt>0</ApplicableTaxDueDAmt>
+      <TaxDueDAmt>0</TaxDueDAmt>
+      <InstallmentTaxDAmt>0</InstallmentTaxDAmt>
+      <AccumulatedAdjustedTaxDAmt>0</AccumulatedAdjustedTaxDAmt>
+      <AggregateTaxDueDAmt>0</AggregateTaxDueDAmt>
+      <AnnualizedIncomeInstallDAmt>0</AnnualizedIncomeInstallDAmt>
+      <SEWorksheetByQtr>
+        <NetSelfEmploymentEarningsAAmt>0</NetSelfEmploymentEarningsAAmt>
+        <SSTRRTWagesAAmt>0</SSTRRTWagesAAmt>
+        <NetProratedSSTLimitAAmt>0</NetProratedSSTLimitAAmt>
+        <AnnualizedSSTRRTWagesAAmt>0</AnnualizedSSTRRTWagesAAmt>
+        <AnnualizedNetSEEarningsAAmt>0</AnnualizedNetSEEarningsAAmt>
+        <AnnualizedSelfEmploymentTxAAmt>0</AnnualizedSelfEmploymentTxAAmt>
+        <NetSelfEmploymentEarningsBAmt>0</NetSelfEmploymentEarningsBAmt>
+        <SSTRRTWagesBAmt>0</SSTRRTWagesBAmt>
+        <NetProratedSSTLimitBAmt>0</NetProratedSSTLimitBAmt>
+        <AnnualizedSSTRRTWagesBAmt>0</AnnualizedSSTRRTWagesBAmt>
+        <AnnualizedNetSEEarningsBAmt>0</AnnualizedNetSEEarningsBAmt>
+        <AnnualizedSelfEmploymentTxBAmt>0</AnnualizedSelfEmploymentTxBAmt>
+        <NetSelfEmploymentEarningsCAmt>0</NetSelfEmploymentEarningsCAmt>
+        <SSTRRTWagesCAmt>0</SSTRRTWagesCAmt>
+        <NetProratedSSTLimitCAmt>0</NetProratedSSTLimitCAmt>
+        <AnnualizedSSTRRTWagesCAmt>0</AnnualizedSSTRRTWagesCAmt>
+        <AnnualizedNetSEEarningsCAmt>0</AnnualizedNetSEEarningsCAmt>
+        <AnnualizedSelfEmploymentTxCAmt>0</AnnualizedSelfEmploymentTxCAmt>
+        <NetSelfEmploymentEarningsDAmt>0</NetSelfEmploymentEarningsDAmt>
+        <SSTRRTWagesDAmt>0</SSTRRTWagesDAmt>
+        <NetProratedSSTLimitDAmt>0</NetProratedSSTLimitDAmt>
+        <AnnualizedSSTRRTWagesDAmt>0</AnnualizedSSTRRTWagesDAmt>
+        <AnnualizedNetSEEarningsDAmt>0</AnnualizedNetSEEarningsDAmt>
+        <AnnualizedSelfEmploymentTxDAmt>0</AnnualizedSelfEmploymentTxDAmt>
+      </SEWorksheetByQtr>
+    </IRS2210>
+    <IRS4562 documentId="IRS4562" softwareId="00000000" softwareVersion="String" documentName="IRS4562" referenceDocumentId="GeneralDependencySmall" referenceDocumentName="GeneralDependencySmall" note="ELECTION PURSUANT TO NOTICE 2001-70" note2="EXTENSION UNDER ANNOUNCEMENT 2006-29">
+      <BusinessOrActivity>String</BusinessOrActivity>
+      <MaximumDollarLimitation>500000</MaximumDollarLimitation>
+      <TotalCostOfSection179Property>0</TotalCostOfSection179Property>
+      <ThresholdCostOfSection179Prop>2000000</ThresholdCostOfSection179Prop>
+      <ReductionInLimitation>0</ReductionInLimitation>
+      <DollarLimitationForTaxYear>0</DollarLimitationForTaxYear>
+      <ElectedProperty>
+        <PropertyDescription>String</PropertyDescription>
+        <CostForBusinessUseOnly>0</CostForBusinessUseOnly>
+        <ElectedCost>0</ElectedCost>
+      </ElectedProperty>
+      <TotalElectedCostSect179Prop>0</TotalElectedCostSect179Prop>
+      <TentativeDeduction>0</TentativeDeduction>
+      <DisallowedDeductionCarryover>0</DisallowedDeductionCarryover>
+      <BusinessIncomeLimitation>0</BusinessIncomeLimitation>
+      <Section179ExpenseDeduction note="SUMMARY">0</Section179ExpenseDeduction>
+      <NextYearCarryoverAmount>0</NextYearCarryoverAmount>
+      <SpecialAllowance>0</SpecialAllowance>
+      <Section168f1ElectedProperty referenceDocumentId="Sctn168f1PrprtySttmnt" referenceDocumentName="Section168f1PropertyExplanationStatement">0</Section168f1ElectedProperty>
+      <OtherDepreciation>0</OtherDepreciation>
+      <MACRSDedForAssetsInServicePY>0</MACRSDedForAssetsInServicePY>
+      <GeneralAssetAccountElection>X</GeneralAssetAccountElection>
+      <GeneralDepreciationSystem referenceDocumentId="GDS50YrDdctnSttmnt" referenceDocumentName="50YearGDSDeductionStatement">
+        <GDS3YearProperty>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <RecoveryPeriod>0.1</RecoveryPeriod>
+          <Convention>HY</Convention>
+          <Method>200 DB</Method>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </GDS3YearProperty>
+        <GDS5YearProperty>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <RecoveryPeriod>0.1</RecoveryPeriod>
+          <Convention>HY</Convention>
+          <Method>200 DB</Method>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </GDS5YearProperty>
+        <GDS7YearProperty>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <RecoveryPeriod>0.1</RecoveryPeriod>
+          <Convention>HY</Convention>
+          <Method>200 DB</Method>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </GDS7YearProperty>
+        <GDS10YearProperty>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <RecoveryPeriod>0.1</RecoveryPeriod>
+          <Convention>HY</Convention>
+          <Method>200 DB</Method>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </GDS10YearProperty>
+        <GDS15YearProperty>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <RecoveryPeriod>0.1</RecoveryPeriod>
+          <Convention>HY</Convention>
+          <Method>200 DB</Method>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </GDS15YearProperty>
+        <GDS20YearProperty>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <RecoveryPeriod>0.1</RecoveryPeriod>
+          <Convention>HY</Convention>
+          <Method>200 DB</Method>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </GDS20YearProperty>
+        <GDS25YearProperty>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <Convention>HY</Convention>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </GDS25YearProperty>
+        <GDSResidentialRentalProperty>
+          <MonthAndYearPlacedInService>1999-
+05</MonthAndYearPlacedInService>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </GDSResidentialRentalProperty>
+        <GDSNonResidentialRealProperty1>
+          <MonthAndYearPlacedInService>1999-
+05</MonthAndYearPlacedInService>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </GDSNonResidentialRealProperty1>
+        <GDSNonResidentialRealProperty2>
+          <MonthAndYearPlacedInService>1999-
+05</MonthAndYearPlacedInService>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <RecoveryPeriod>0.1</RecoveryPeriod>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </GDSNonResidentialRealProperty2>
+      </GeneralDepreciationSystem>
+      <AlternativeDepreciationSystem referenceDocumentId="ADS50YrDdctnSttmnt" referenceDocumentName="50YearADSDeductionStatement">
+        <ADSClassLifeProperty>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <RecoveryPeriod>0.1</RecoveryPeriod>
+          <Convention>HY</Convention>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </ADSClassLifeProperty>
+        <ADS12YearProperty>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <Convention>HY</Convention>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </ADS12YearProperty>
+        <ADS40YearProperty>
+          <MonthAndYearPlacedInService>1999-
+05</MonthAndYearPlacedInService>
+          <BasisForDepreciation>0</BasisForDepreciation>
+          <DepreciationDeduction>0</DepreciationDeduction>
+        </ADS40YearProperty>
+      </AlternativeDepreciationSystem>
+      <TotalDepreciation>0</TotalDepreciation>
+      <Section263ACurrentYearCost>0</Section263ACurrentYearCost>
+      <HaveEvidenceToSupportClaims>1</HaveEvidenceToSupportClaims>
+      <IsEvidenceWritten>1</IsEvidenceWritten>
+      <SpecialAllwncOver50PCT>0</SpecialAllwncOver50PCT>
+      <MoreThanHalfBusinessUseProp>
+        <PropertyType>String</PropertyType>
+        <DatePlacedInService>1999-05-30</DatePlacedInService>
+        <BusinessUsePercentage>0.00000</BusinessUsePercentage>
+        <CostOrOtherBasis>0</CostOrOtherBasis>
+        <BasisForDepreciation>0</BasisForDepreciation>
+        <RecoveryPeriod>0.1</RecoveryPeriod>
+        <MethodAndConvention>200 DB-HY</MethodAndConvention>
+        <DepreciationDeduction>0</DepreciationDeduction>
+        <ElectedSection179Cost>0</ElectedSection179Cost>
+      </MoreThanHalfBusinessUseProp>
+      <LessThanHalfBusinessUseProp>
+        <PropertyType>String</PropertyType>
+        <DatePlacedInService>1999-05-30</DatePlacedInService>
+        <BusinessUsePercentage>0.00000</BusinessUsePercentage>
+        <CostOrOtherBasis>0</CostOrOtherBasis>
+        <BasisForDepreciation>0</BasisForDepreciation>
+        <RecoveryPeriod>0.1</RecoveryPeriod>
+        <Convention>HY</Convention>
+        <DepreciationDeduction>0</DepreciationDeduction>
+      </LessThanHalfBusinessUseProp>
+      <TotalListedDepreciation>0</TotalListedDepreciation>
+      <TotalSection179Expense>0</TotalSection179Expense>
+      <VehicleUsage>
+        <BusinessMiles>0</BusinessMiles>
+        <CommutingMiles>0</CommutingMiles>
+        <OtherPersonalMiles>0</OtherPersonalMiles>
+        <TotalMiles>0</TotalMiles>
+        <AvailableForOffDutyPersonalUse>1</AvailableForOffDutyPersonalUse>
+        <UsedPrimarilyByOwner>1</UsedPrimarilyByOwner>
+        <AnotherAvailableForPersonalUse>1</AnotherAvailableForPersonalUse>
+      </VehicleUsage>
+      <PolicyNoPersonalOrCommuting>1</PolicyNoPersonalOrCommuting>
+      <PolicyNoPersonalButCommuting>1</PolicyNoPersonalButCommuting>
+      <TreatAllUseAsPersonalUse>1</TreatAllUseAsPersonalUse>
+      <ProvideMoreThan5AndHaveRecords>1</ProvideMoreThan5AndHaveRecords>
+      <MeetRequirementsForAutoDemoUse>1</MeetRequirementsForAutoDemoUse>
+      <AmortizationInfo referenceDocumentId="AmrtztnlctnSttmnt" referenceDocumentName="AmortizationElectionStatement">
+        <AmortizationInfoTable>
+          <CostsDescription>String</CostsDescription>
+          <BeginDate>1999-05-30</BeginDate>
+          <AmortizableAmount>0</AmortizableAmount>
+          <CodeSection>String</CodeSection>
+          <PeriodOrPercentage>String</PeriodOrPercentage>
+          <AmortizationThisYear>0</AmortizationThisYear>
+        </AmortizationInfoTable>
+      </AmortizationInfo>
+      <AmortizationPrecurrentYear>0</AmortizationPrecurrentYear>
+      <TotalAmortization>0</TotalAmortization>
+    </IRS4562>
+    <IRS8812 documentId="IRS8812" softwareId="00000000" softwareVersion="String" documentName="IRS8812">
+      <ChildTaxCreditWrkshtAmt>0</ChildTaxCreditWrkshtAmt>
+      <ChildTaxCreditAmt>0</ChildTaxCreditAmt>
+      <NetFromWorksheetAmt>0</NetFromWorksheetAmt>
+      <TotalEarnedIncomeAmt>0</TotalEarnedIncomeAmt>
+      <NontaxableCombatPayAmt>0</NontaxableCombatPayAmt>
+      <EarnedIncmMoreThanSpecifiedInd>1</EarnedIncmMoreThanSpecifiedInd>
+      <NetTotalEarnedIncomeAmt>0</NetTotalEarnedIncomeAmt>
+      <NetEarnedIncomeCalculatedAmt>0</NetEarnedIncomeCalculatedAmt>
+      <ThreeOrMoreQlfyChildrenInd>1</ThreeOrMoreQlfyChildrenInd>
+      <FromW2Amt>0</FromW2Amt>
+      <FromTaxReturnAmt>0</FromTaxReturnAmt>
+      <CalcFromW2AndReturnAmt>0</CalcFromW2AndReturnAmt>
+      <CalcAmtFromRetPlusTaxWhldAmt>0</CalcAmtFromRetPlusTaxWhldAmt>
+      <CalculatedDifferenceAmt>0</CalculatedDifferenceAmt>
+      <LargerCalcIncomeOrDiffAmt>0</LargerCalcIncomeOrDiffAmt>
+    </IRS8812>
+    <IRS8829 documentId="IRS8829" softwareId="00000000" softwareVersion="String" documentName="IRS8829">
+      <NameOfProprietor>String</NameOfProprietor>
+      <SocialSecurityNumber>000000000</SocialSecurityNumber>
+      <BusinessUseSquareFeetCnt>0</BusinessUseSquareFeetCnt>
+      <TotalAreaOfHomeCnt>0</TotalAreaOfHomeCnt>
+      <BusinessSquareFeetPct>0.00000</BusinessSquareFeetPct>
+      <BusinessUseHoursCnt>0</BusinessUseHoursCnt>
+      <TotalHoursAvailableCnt>0</TotalHoursAvailableCnt>
+      <BusinessHoursPct>0.00000</BusinessHoursPct>
+      <BusinessPct referenceDocumentId="SpclCmptFrCrtnDycrFcltsStmt" referenceDocumentName="SpecialComputationForCertainDaycareFacilitiesStatement">0.00000</BusinessPct>
+      <HomeBusinessGainOrLossAmt>0</HomeBusinessGainOrLossAmt>
+      <DeductibleMortgageIntDirectAmt>0</DeductibleMortgageIntDirectAmt>
+      <DeductibleMortgageIntIndrAmt>0</DeductibleMortgageIntIndrAmt>
+      <RealEstateTaxesDirectAmt>0</RealEstateTaxesDirectAmt>
+      <RealEstateTaxesIndirectAmt>0</RealEstateTaxesIndirectAmt>
+      <DirectDeductedExpnssSubtlAmt>0</DirectDeductedExpnssSubtlAmt>
+      <IndirectDeductedExpnssSubtlAmt>0</IndirectDeductedExpnssSubtlAmt>
+      <AllowableIndrDeductedExpnssAmt>0</AllowableIndrDeductedExpnssAmt>
+      <DirectAndIndirectExpnsSubtlAmt>0</DirectAndIndirectExpnsSubtlAmt>
+      <HomeBusinessIncomeAmt>0</HomeBusinessIncomeAmt>
+      <ExcessMortgageIntDirectAmt>0</ExcessMortgageIntDirectAmt>
+      <ExcessMortgageIntIndirectAmt>0</ExcessMortgageIntIndirectAmt>
+      <InsuranceDirectAmt>0</InsuranceDirectAmt>
+      <InsuranceIndirectAmt>0</InsuranceIndirectAmt>
+      <RentDirectAmt>0</RentDirectAmt>
+      <RentIndirectAmt>0</RentIndirectAmt>
+      <RepairsAndMaintDirectAmt>0</RepairsAndMaintDirectAmt>
+      <RepairsAndMaintIndirectAmt>0</RepairsAndMaintIndirectAmt>
+      <UtilitiesDirectAmt>0</UtilitiesDirectAmt>
+      <UtilitiesIndirectAmt>0</UtilitiesIndirectAmt>
+      <OtherExpensesDirectAmt>0</OtherExpensesDirectAmt>
+      <OtherExpensesIndirectAmt>0</OtherExpensesIndirectAmt>
+      <DirectNondeductedSubtotalAmt>0</DirectNondeductedSubtotalAmt>
+      <IndirectNondeductedSubtotalAmt>0</IndirectNondeductedSubtotalAmt>
+      <AllwblIndrNondeductedExpnssAmt>0</AllwblIndrNondeductedExpnssAmt>
+      <OperatingExpensesCarryoverAmt>0</OperatingExpensesCarryoverAmt>
+      <NondeductibleNetExpensesAmt>0</NondeductibleNetExpensesAmt>
+      <AllowableOperatingExpensesAmt>0</AllowableOperatingExpensesAmt>
+      <CsltyLossesAndDeprecLimitAmt>0</CsltyLossesAndDeprecLimitAmt>
+      <ExcessCasualtyLossesAmt>0</ExcessCasualtyLossesAmt>
+      <CyovExCsltyLossesAndDeprecAmt>0</CyovExCsltyLossesAndDeprecAmt>
+      <CasualtyLossesAndDeprecNetAmt>0</CasualtyLossesAndDeprecNetAmt>
+      <AllwblExCsltyLossesDeprecAmt>0</AllwblExCsltyLossesDeprecAmt>
+      <TotalAllowableExpensesAmt>0</TotalAllowableExpensesAmt>
+      <CasualtyLossPortionAmt>0</CasualtyLossPortionAmt>
+      <AllowableHomeBusExpnssSchCAmt>0</AllowableHomeBusExpnssSchCAmt>
+      <HomeAdjBasisOrFairMarketAmt referenceDocumentId="CstrBssfddndmprv" referenceDocumentName="CostOrOtherBasisOfAdditionsAndImprovementsSchedule">0</HomeAdjBasisOrFairMarketAmt>
+      <ValueOfLandAmt>0</ValueOfLandAmt>
+      <BasisOfBuildingAmt>0</BasisOfBuildingAmt>
+      <BusinessBasisOfBuildingAmt>0</BusinessBasisOfBuildingAmt>
+      <DepreciationPct>0.00000</DepreciationPct>
+      <AllowableHomeDepreciationAmt referenceDocumentId="DepreciationComputation IRS4562" referenceDocumentName="DepreciationComputationSchedule IRS4562">0</AllowableHomeDepreciationAmt>
+      <OperatingExpensesAmt>0</OperatingExpensesAmt>
+      <ExcessCsltyLossesAndDeprecAmt>0</ExcessCsltyLossesAndDeprecAmt>
+    </IRS8829>
+    <IRS8880 documentId="IRS8880" softwareId="00000000" softwareVersion="String" documentName="IRS8880">
+      <PrimaryRothIRAForCurrentYrAmt>0</PrimaryRothIRAForCurrentYrAmt>
+      <SpouseRothIRAForCurrentYrAmt>0</SpouseRothIRAForCurrentYrAmt>
+      <PrimaryContributionsAmt>0</PrimaryContributionsAmt>
+      <SpouseContributionsAmt>0</SpouseContributionsAmt>
+      <AddPrimRothIRAToCYContriAmt>0</AddPrimRothIRAToCYContriAmt>
+      <AddSpRothIRAToCYContriAmt>0</AddSpRothIRAToCYContriAmt>
+      <PrimTaxableDistributionsAmt>0</PrimTaxableDistributionsAmt>
+      <SpsTaxableDistributionsAmt>0</SpsTaxableDistributionsAmt>
+      <CalculatePrimDistribFromTotAmt>0</CalculatePrimDistribFromTotAmt>
+      <CalculateSpsDistribFromTotAmt>0</CalculateSpsDistribFromTotAmt>
+      <PrimSmallerOfCalculationAmt>1</PrimSmallerOfCalculationAmt>
+      <SpsSmallerOfCalculationAmt>1</SpsSmallerOfCalculationAmt>
+      <TotalCalculatedAmt>0</TotalCalculatedAmt>
+      <AGIFromTaxReturnAmt>0</AGIFromTaxReturnAmt>
+      <QlfdRetirementSavDecimalAmt>0.0</QlfdRetirementSavDecimalAmt>
+      <CalculatedAmtByDecimalAmt>0</CalculatedAmtByDecimalAmt>
+      <TaxFromTaxReturnAmt>0</TaxFromTaxReturnAmt>
+      <CreditsFromTaxReturnAmt>0</CreditsFromTaxReturnAmt>
+      <CalculatedCreditsFromTaxAmt>0</CalculatedCreditsFromTaxAmt>
+      <CrQualifiedRetirementSavAmt>0</CrQualifiedRetirementSavAmt>
+    </IRS8880>
+    <IRSW2 documentId="IRSW2" softwareId="00000000" softwareVersion="String" documentName="IRSW2">
+      <EmployerEIN>000000000</EmployerEIN>
+      <EmployerNameControl>XYWR</EmployerNameControl>
+      <EmployerName>
+        <BusinessNameLine1>Gomers Gas and Booze to Go</BusinessNameLine1>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1>11 MASS AVENUE</AddressLine1>
+        <City>Mayberry</City>
+        <State>NC</State>
+        <ZIPCode>84404</ZIPCode>
+      </EmployerUSAddress>
+      <EmployeeName>JOHN JONES</EmployeeName>
+      <EmployeeUSAddress>
+        <AddressLine1>1 MASTER RETURNS STREET</AddressLine1>
+        <City>OGDEN</City>
+        <State>UT</State>
+        <ZIPCode>84404</ZIPCode>
+      </EmployeeUSAddress>
+      <WagesAmt>50000</WagesAmt>
+      <WithholdingAmt>5000</WithholdingAmt>
+      <W2StateLocalTaxGrp>
+        <W2StateTaxGrp>
+          <StateAbbreviationCd>AL</StateAbbreviationCd>
+          <EmployersStateIdNumber>String</EmployersStateIdNumber>
+          <StateWagesAmt>0</StateWagesAmt>
+          <StateIncomeTaxAmt>0</StateIncomeTaxAmt>
+          <W2LocalTaxGrp>
+            <LocalWagesAndTipsAmt>0</LocalWagesAndTipsAmt>
+            <LocalIncomeTaxAmt>0</LocalIncomeTaxAmt>
+            <NameOfLocality>String</NameOfLocality>
+          </W2LocalTaxGrp>
+        </W2StateTaxGrp>
+      </W2StateLocalTaxGrp>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <AllocationRecord documentId="AllocationRecord" softwareId="00000000" softwareVersion="String" documentName="AllocationRecord">
+      <AllocationInformationGrp>
+        <TotalAllocationGrp>
+          <WagesAmt>0</WagesAmt>
+          <TaxableInterestAmt>0</TaxableInterestAmt>
+          <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+          <StateLocalIncomeTaxRefundAmt>0</StateLocalIncomeTaxRefundAmt>
+          <CaptialGainLossAmt>0</CaptialGainLossAmt>
+          <TaxablePensionsAmt>0</TaxablePensionsAmt>
+          <RentalRealESTAmt>0</RentalRealESTAmt>
+          <TotalOtherIncomeAmt>0</TotalOtherIncomeAmt>
+          <TotalIncomeAmt>0</TotalIncomeAmt>
+          <OverpaidAmt>0</OverpaidAmt>
+        </TotalAllocationGrp>
+        <HusbandAllocationGrp>
+          <WagesAmt>0</WagesAmt>
+          <TaxableInterestAmt>0</TaxableInterestAmt>
+          <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+          <StateLocalIncomeTaxRefundAmt>0</StateLocalIncomeTaxRefundAmt>
+          <CaptialGainLossAmt>0</CaptialGainLossAmt>
+          <TaxablePensionsAmt>0</TaxablePensionsAmt>
+          <RentalRealESTAmt>0</RentalRealESTAmt>
+          <TotalOtherIncomeAmt>0</TotalOtherIncomeAmt>
+          <TotalIncomeAmt>0</TotalIncomeAmt>
+          <OverpaidAmt>0</OverpaidAmt>
+        </HusbandAllocationGrp>
+        <WifeAllocationGrp>
+          <WagesAmt>0</WagesAmt>
+          <TaxableInterestAmt>0</TaxableInterestAmt>
+          <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+          <StateLocalIncomeTaxRefundAmt>0</StateLocalIncomeTaxRefundAmt>
+          <CaptialGainLossAmt>0</CaptialGainLossAmt>
+          <TaxablePensionsAmt>0</TaxablePensionsAmt>
+          <RentalRealESTAmt>0</RentalRealESTAmt>
+          <TotalOtherIncomeAmt>0</TotalOtherIncomeAmt>
+          <TotalIncomeAmt>0</TotalIncomeAmt>
+          <OverpaidAmt>0</OverpaidAmt>
+        </WifeAllocationGrp>
+      </AllocationInformationGrp>
+    </AllocationRecord>
+    <ClergySchCBusinessDedWrksht documentId="ClrgySchCBsnssDdWrksht" softwareId="00000000" softwareVersion="String" documentName="ClergyBusinessDeductionsWorksheet">
+      <SSNOfMinister>000000000</SSNOfMinister>
+      <MinisterialTaxFreeIncmPct>0.00000</MinisterialTaxFreeIncmPct>
+      <BusinessMilesCnt>0</BusinessMilesCnt>
+      <FgrSchCDedTotalMileageAmt>0</FgrSchCDedTotalMileageAmt>
+      <MealsAndEntertainmentAmt>0</MealsAndEntertainmentAmt>
+      <FgrSchCTotMealsAndEntrmtAmt>0</FgrSchCTotMealsAndEntrmtAmt>
+      <OtherExpensesGrp>
+        <Description>String</Description>
+        <Amount>0</Amount>
+      </OtherExpensesGrp>
+      <FgrSchCDedTotOthExpnsAmt>0</FgrSchCDedTotOthExpnsAmt>
+      <FgrSchCDedTotalExpensesAmt>0</FgrSchCDedTotalExpensesAmt>
+      <FgrSchCDedNondedExpenseAmt>0</FgrSchCDedNondedExpenseAmt>
+      <TotalOtherExpensesAmt>0</TotalOtherExpensesAmt>
+    </ClergySchCBusinessDedWrksht>
+    <F1098RecpntNmTINAddrStatement documentId="F1098RcpntNmTNddrSttmnt" softwareId="00000000" softwareVersion="String" documentName="Form1098RecipientNameTINAndAddressStatement">
+      <F1098RecpntNmTINAddrStmt>
+        <NameOfRecipient>String</NameOfRecipient>
+        <IdentifyingNumberEIN>000000000</IdentifyingNumberEIN>
+        <USAddress>
+          <AddressLine1>String</AddressLine1>
+          <AddressLine2>String</AddressLine2>
+          <City>String</City>
+          <State>AL</State>
+          <ZIPCode>000000000</ZIPCode>
+        </USAddress>
+      </F1098RecpntNmTINAddrStmt>
+    </F1098RecpntNmTINAddrStatement>
+    <NOLCarryforwardDedStatement documentId="NLCrryfrwrdDdSttmnt" softwareId="00000000" softwareVersion="String" documentName="NetOperatingLossCarryforwardDeductionStatement">
+      <Statement>String</Statement>
+    </NOLCarryforwardDedStatement>
+    <AllowableSEExpenseExplnStmt documentId="AllwblSxpnsxplnStmt" softwareId="00000000" softwareVersion="String" documentName="AllowableSEExpenseExplanationStatement">
+      <Statement>String</Statement>
+    </AllowableSEExpenseExplnStmt>
+    <SpclDeprecAllwncElectOutStmt documentId="SpclDprcllwnclcttStmt" softwareId="00000000" softwareVersion="String" documentName="SpecialDepreciationAllwncElectOutStmt">
+      <ElectionExplanation>String</ElectionExplanation>
+    </SpclDeprecAllwncElectOutStmt>
+    <WaiverExplanationStatement documentId="WvrxplntnSttmnt" softwareId="00000000" softwareVersion="String" documentName="WaiverExplanationStatement">
+      <Reason>String</Reason>
+    </WaiverExplanationStatement>
+    <ContemporaneousWrittenAckStmt documentId="CntmprnsWrttnckStmt" softwareId="00000000" softwareVersion="String" documentName="ContemporaneousWrittenAcknowledgmentStatement">
+      <QualifiedVehicleDonationInfo>String</QualifiedVehicleDonationInfo>
+    </ContemporaneousWrittenAckStmt>
+    <ContriVehicleBoatAirplaneStmt documentId="CntrVhclBtrplnStmt" softwareId="00000000" softwareVersion="String" documentName="ContributionsOfMotorVehiclesBoatsAndAirplanesStatement">
+      <CorrectedBoxInd>X</CorrectedBoxInd>
+      <DoneeName>
+        <BusinessNameLine1>String</BusinessNameLine1>
+        <BusinessNameLine2>String</BusinessNameLine2>
+      </DoneeName>
+      <USAddressOfDonee>
+        <AddressLine1>String</AddressLine1>
+        <AddressLine2>String</AddressLine2>
+        <City>String</City>
+        <State>AL</State>
+        <ZIPCode>000000000</ZIPCode>
+      </USAddressOfDonee>
+      <DoneeTelephoneNumber>0000000000</DoneeTelephoneNumber>
+      <DoneeEIN>000000000</DoneeEIN>
+      <DonorEIN>000000000</DonorEIN>
+      <DonorName>
+        <PersonFirstName>String</PersonFirstName>
+        <PersonLastName>String</PersonLastName>
+      </DonorName>
+      <DonorUSAddress>
+        <AddressLine1>String</AddressLine1>
+        <AddressLine2>String</AddressLine2>
+        <City>String</City>
+        <State>AL</State>
+        <ZIPCode>000000000</ZIPCode>
+      </DonorUSAddress>
+      <DateOfTheContribution>2010-05-30</DateOfTheContribution>
+      <VehicleDescription>
+        <VehicleYear>1000</VehicleYear>
+        <VehicleMake>String</VehicleMake>
+        <VehicleModel>String</VehicleModel>
+      </VehicleDescription>
+      <VehicleIdentificationNumber>AAAAAAAAAAAAAAAAAAA</VehicleIdentificationNumber>
+      <CertifiesVehSoldToUnrltPrtyInd>X</CertifiesVehSoldToUnrltPrtyInd>
+      <DateOfSale>2010-05-30</DateOfSale>
+      <GrossProceedsFromSaleOfVehAmt>0</GrossProceedsFromSaleOfVehAmt>
+      <CertifiesVehicleNotTrnsfrInd>X</CertifiesVehicleNotTrnsfrInd>
+      <CertifiesVehTrnsfrToNeedyInd>X</CertifiesVehTrnsfrToNeedyInd>
+      <CertifiesDetailedDescOfImprv>String</CertifiesDetailedDescOfImprv>
+      <GoodsAndServicesInd>1</GoodsAndServicesInd>
+      <ValueOfGoodsAndSrvcForVehAmt>0</ValueOfGoodsAndSrvcForVehAmt>
+      <IntangibleReligiousBenefitsInd>X</IntangibleReligiousBenefitsInd>
+      <DescriptionOfGoodsAndServices>String</DescriptionOfGoodsAndServices>
+      <VehClaimDedUnderSpcfdAmtInd>X</VehClaimDedUnderSpcfdAmtInd>
+    </ContriVehicleBoatAirplaneStmt>
+    <GeneralDependencySmall documentId="GeneralDependencySmall" softwareId="00000000" softwareVersion="String" documentName="GeneralDependencySmall" referenceDocumentId="BinaryAttachment" referenceDocumentName="BinaryAttachment">
+      <BusinessName>
+        <BusinessNameLine1>String</BusinessNameLine1>
+        <BusinessNameLine2>String</BusinessNameLine2>
+      </BusinessName>
+      <SSN>000000000</SSN>
+      <FormLineOrInstructionReference>String</FormLineOrInstructionReference>
+      <RegulationsReference>String</RegulationsReference>
+      <Description>String</Description>
+      <AttachmentInformation>String</AttachmentInformation>
+    </GeneralDependencySmall>
+    <GeneralDependencyMedium documentId="GeneralDependencyMedium" softwareId="00000000" softwareVersion="String" documentName="GeneralDependencyMedium" referenceDocumentId="BinaryAttachment" referenceDocumentName="BinaryAttachment">
+      <BusinessName>
+        <BusinessNameLine1>String</BusinessNameLine1>
+        <BusinessNameLine2>String</BusinessNameLine2>
+      </BusinessName>
+      <SSN>000000000</SSN>
+      <FormLineOrInstructionReference>String</FormLineOrInstructionReference>
+      <RegulationsReference>String</RegulationsReference>
+      <Description>Section 108(i) election explanation</Description>
+      <AttachmentInformation>String</AttachmentInformation>
+    </GeneralDependencyMedium>
+  </ReturnData>
+</Return>

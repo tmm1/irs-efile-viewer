@@ -5,6 +5,7 @@ exclude: [
   'GEMFILE',
   '.gitignore',
   'LICENSE',
+  '1040_instance.xml',
   '201541349349307794_public.xml',
   'script',
   'vendor'
